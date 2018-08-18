@@ -1,0 +1,3 @@
+// https://www.hackerrank.com/challenges/weather-observation-station-10/problem
+
+select unique o.city from station o where lower(substr(o.city,-1)) not in ('a','e','i','o','u');
