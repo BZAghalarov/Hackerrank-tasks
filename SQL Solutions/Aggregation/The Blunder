@@ -1,0 +1,4 @@
+// https://www.hackerrank.com/challenges/the-blunder/problem
+
+
+select ceil(avg(e.salary) - avg(replace(e.salary,0,''))) from employees e;
