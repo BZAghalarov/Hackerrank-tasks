@@ -1,0 +1,3 @@
+// https://www.hackerrank.com/challenges/revising-aggregations-the-count-function/problem
+
+select count(c.district) from CITY c where c.population>100000;
