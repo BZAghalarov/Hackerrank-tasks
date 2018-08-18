@@ -1,0 +1,6 @@
+// https://www.hackerrank.com/challenges/weather-observation-station-5/problem
+
+select k.city , length(k.city) from station k where  length(k.city) = (select min(length(r.city)) from station r) 
+and k.city = (select min(d.city) from (select k1.city from station k1 where  length(k1.city) = (select min(length(r1.city)) from station r1)) d) ;
+
+select k.city , length(k.city) from station k where  length(k.city) = (select max(length(r.city)) from station r);
