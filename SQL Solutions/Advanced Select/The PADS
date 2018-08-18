@@ -1,0 +1,6 @@
+// https://www.hackerrank.com/challenges/the-pads/problem
+
+select oc.name||'('||substr(oc.occupation,1,1)||')' from OCCUPATIONS OC order by oc.name;
+
+select 'There are a total of '||count(oc.occupation)||' '||lower(oc.occupation)||'s.' from OCCUPATIONS OC
+group by oc.occupation order by count(oc.occupation) asc, oc.occupation asc;
