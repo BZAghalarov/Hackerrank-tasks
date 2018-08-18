@@ -1,0 +1,3 @@
+// https://www.hackerrank.com/challenges/weather-observation-station-4/problem
+
+select COUNT(s1.CITY)- COUNT(DISTINCT (s1.CITY)) from STATION s1;
