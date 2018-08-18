@@ -1,0 +1,3 @@
+// https://www.hackerrank.com/challenges/draw-the-triangle-1/problem
+
+select rpad('*', x,' *') from ( SELECT LEVEL x FROM DUAL CONNECT BY LEVEL <= 40 Order by Level desc ) where mod(x,2) = 0;
