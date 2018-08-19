@@ -1,0 +1,6 @@
+
+//  https://www.hackerrank.com/challenges/text-processing-cut-5/problem
+
+while read LINE; do
+  cut -f-3 <<<"$LINE"
+done </dev/stdin
