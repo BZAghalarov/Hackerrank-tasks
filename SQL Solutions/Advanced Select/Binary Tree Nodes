@@ -1,7 +1,0 @@
-// https://www.hackerrank.com/challenges/binary-search-tree-1/problem
-
- SELECT N ,
- (CASE WHEN P IS NULL THEN 'Root' 
-       WHEN EXISTS (SELECT P FROM BST B WHERE A.N=B.P) THEN 'Inner' 
-            ELSE 'Leaf' END) 
-            FROM BST A ORDER BY N;

@@ -1,8 +1,0 @@
-// https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem
-
-read first
-read second
-expr $first + $second
-expr $first - $second
-expr $first \* $second
-expr $first / $second

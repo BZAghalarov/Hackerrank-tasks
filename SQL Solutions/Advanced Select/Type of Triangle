@@ -1,7 +1,0 @@
-// https://www.hackerrank.com/challenges/what-type-of-triangle/problem
-
-select case when t.a + t.b <= t.c or t.a + t.c <= t.b or t.b + t.c <= t.a then 'Not A Triangle'
-            when t.a=t.b and t.b=t.c  then 'Equilateral'
-            when (t.a=t.b and t.a<>t.c) or (t.a=t.c and t.a<>t.b) or (t.b=t.c and t.b<>t.a) then 'Isosceles'
-            when t.a<>t.c and t.b <> t.c and t.a<>t.b then 'Scalene'
-            end  from TRIANGLES t;

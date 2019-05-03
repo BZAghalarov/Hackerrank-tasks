@@ -1,3 +1,0 @@
-// https://www.hackerrank.com/challenges/weather-observation-station-13/problem
-
-select sum(lat_n) from station where lat_n>38.780 and lat_n<137.2345;

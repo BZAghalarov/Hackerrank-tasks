@@ -1,3 +1,0 @@
-// https://www.hackerrank.com/challenges/weather-observation-station-1/problem
-
-select a.city,a.state from station a;

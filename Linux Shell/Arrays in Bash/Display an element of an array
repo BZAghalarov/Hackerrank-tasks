@@ -1,6 +1,0 @@
-
-// https://www.hackerrank.com/challenges/bash-tutorials-display-the-third-element-of-an-array/problem
-
-a=($(cat))
-
-echo ${a[3]}

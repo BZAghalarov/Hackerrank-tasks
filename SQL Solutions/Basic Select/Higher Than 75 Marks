@@ -1,3 +1,0 @@
-// https://www.hackerrank.com/challenges/more-than-75-marks/problem
-
-select s.name from students s where s.marks>75 order by substr(s.name,length(s.name)-2,length(s.name)), id asc;

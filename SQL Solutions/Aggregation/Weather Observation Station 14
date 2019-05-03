@@ -1,3 +1,0 @@
-// https://www.hackerrank.com/challenges/weather-observation-station-14/problem
-
-select round(max(d.lat_n),4) from station d where d.lat_n<137.2345;
