@@ -1,0 +1,3 @@
+// https://www.hackerrank.com/challenges/japanese-cities-attributes/problem
+
+select * from city a where a.countrycode='JPN';

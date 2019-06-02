@@ -1,0 +1,3 @@
+// https://www.hackerrank.com/challenges/japanese-cities-name/problem
+
+select a.name from city a where a.countrycode='JPN';

@@ -1,0 +1,9 @@
+//  https://www.hackerrank.com/challenges/bash-tutorials---getting-started-with-conditionals/problem
+
+read x
+if [ $x == "Y" ] || [ $x == "y" ]
+then
+   echo "YES"
+else
+   echo "NO"
+fi

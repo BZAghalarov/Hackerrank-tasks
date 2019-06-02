@@ -1,0 +1,3 @@
+// https://www.hackerrank.com/challenges/revising-the-select-query-2/problem
+
+select a.name from city a where a.population> 120000 and a.countrycode='USA';
